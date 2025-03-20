@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Youtube Thumbnails</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Download thumbnails</h1>
+        <h2 id="message-box">Link format invalid</h2>
+        <form id="search-form">
+          <input id="input-link" type="text" placeholder="Video link" />
+          <button type="submit">Search</button>
+        </form>
+      </header>
+      <main id="main" class="main">
+        <div>
+          <h3>Max resolution thumbnail</h3>
+          <div id="maxContainer" class="maxContainer"></div>
+        </div>
+        <div>
+          <h3>High resolution thumbnail</h3>
+          <div id="hqContainer" class="hqContainer"></div>
+        </div>
+        <div>
+          <h3>Medium resolution thumbnail</h3>
+          <div id="mqContainer" class="mqContainer"></div>
+        </div>
+        <div>
+          <h3>Standard resolution thumbnail</h3>
+          <div id="sdContainer" class="sdContainer"></div>
+        </div>
+      </main>
+    </div>
+    <script src="main.js" defer></script>
+  </body>
+</html>
